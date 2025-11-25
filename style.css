@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   background-color: gray;
 }
@@ -21,3 +22,28 @@ div {
   height: 95vh;
   /* width: 50%; */
 }
+=======
+body {
+  background-color: gray;
+}
+
+div > img {
+  width: 50%;
+  height: 50%;
+  /* filter: drop-shadow(0px 0px 20px rgb(0, 66, 128)); */
+  filter: drop-shadow(0px 0px 20px rgb(200, 0, 0));
+  transition: transform 0.3s ease-in-out;
+}
+div > img:hover {
+  cursor: pointer;
+  filter: drop-shadow(0px 0px 20px rgb(130, 0, 200));
+  transform: scale(1.05);
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  /* width: 50%; */
+}
+>>>>>>> a1031d8 (second commit2)
