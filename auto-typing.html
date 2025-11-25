@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Poppins";
+      }
+      .container {
+        width: 100%;
+        height: 100vh;
+        background-color: #020412;
+        align-items: center;
+        justify-content: center;
+      }
+      h1 {
+        color: #fff;
+        font-size: 75px;
+      }
+      span {
+        color: #fff724;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>We are <span class="auto-type">Students</span></h1>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["Programmer", "Designer", "YouTuber"],
+        typedSpeed: 150,
+        backSpeed: 150,
+        looped: true,
+      });
+    </script>
+  </body>
+</html>
